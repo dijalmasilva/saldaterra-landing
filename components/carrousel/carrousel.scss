@@ -1,0 +1,41 @@
+.carrousel {
+  @apply min-h-[69vh] flex items-end justify-center bg-no-repeat bg-cover bg-center bg-primary;
+
+  .items-carrousel {
+    @apply flex items-center justify-center gap-4 mb-4;
+
+    .circle {
+      @apply w-4 h-4 rounded-full bg-white cursor-pointer ;
+
+      &.selected {
+        @apply bg-secondary;
+      }
+    }
+  }
+
+  &.fade-out {
+    animation: fadeOut 0.5s forwards; // duração de meio segundo para combinar com o setTimeout do React
+  }
+
+  &.fade-in {
+    animation: fadeIn 0.5s forwards;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.6;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 0.6;
+  }
+  to {
+    opacity: 0;
+  }
+}

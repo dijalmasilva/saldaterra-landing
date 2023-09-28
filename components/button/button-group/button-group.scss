@@ -1,0 +1,18 @@
+.button-group {
+  @apply flex justify-center items-center gap-[0.9px];
+
+  // Estilos para o primeiro botão
+  & > button:first-child {
+    @apply rounded-l-full rounded-r-none border-r-0; // Adicionei border-r-0 para remover a borda à direita
+  }
+
+  // Estilos para o último botão
+  & > button:last-child {
+    @apply rounded-r-full rounded-l-none;
+  }
+
+  // Estilos para botões intermediários (se houver)
+  & > button:not(:first-child):not(:last-child) {
+    @apply rounded-none;
+  }
+}

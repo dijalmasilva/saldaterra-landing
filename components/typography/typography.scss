@@ -1,0 +1,34 @@
+.typography {
+
+  h1 {
+    @apply text-4xl font-bold text-center text-primary;
+  }
+
+  h2 {
+    @apply text-3xl font-bold text-center text-primary;
+  }
+
+  h3 {
+    @apply text-2xl font-bold text-center text-primary;
+  }
+
+  h4 {
+    @apply text-xl font-bold text-center text-primary;
+  }
+
+  h5 {
+    @apply text-lg font-bold text-center text-primary;
+  }
+
+  h6 {
+    @apply text-base font-bold text-center text-primary;
+  }
+
+  p {
+      @apply text-base text-center text-primary;
+  }
+
+  span {
+      @apply text-base text-center text-primary;
+  }
+}
