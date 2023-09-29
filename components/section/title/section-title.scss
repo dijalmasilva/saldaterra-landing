@@ -1,0 +1,19 @@
+.section-title {
+  @apply flex-col;
+
+  .title-div {
+    @apply flex items-baseline gap-8;
+
+    .title {
+      @apply w-full flex-1 text-secondary font-semibold;
+    }
+
+    .divider {
+      @apply w-full flex-1 border-b-0 border-primary;
+    }
+  }
+
+  .subtitle {
+    @apply flex items-start text-xl;
+  }
+}
