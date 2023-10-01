@@ -9,9 +9,9 @@ const Footer = () => {
         <footer>
             <div className="bg-primary w-full py-8 flex justify-center items-center">
                 <Container>
-                    <div className="flex xl:gap-16 lg:gap-2">
+                    <div className="flex gap-8 lg:gap-2 xl:gap-16">
                         <Image src="/images/logo.png" alt="logo" width={219} height={147} />
-                        <div className="flex flex-col justify-evenly basis-4/12">
+                        <div className="hidden lg:flex lg:flex-col justify-evenly lg:basis-4/12">
                             <div>
                                 <Typography className="!text-white !text-sm italic">
                                     Um pouco de sal transforma a comida toda! Da mesma forma,

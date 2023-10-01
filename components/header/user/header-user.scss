@@ -5,7 +5,7 @@
   }
 
   .info {
-    @apply flex items-center justify-around gap-8;
+    @apply hidden items-center justify-around gap-8 lg:flex;
 
     .info-option {
         @apply flex gap-2;
@@ -13,7 +13,7 @@
   }
 
   .authentication {
-    @apply flex items-center justify-around gap-8;
+    @apply flex items-center justify-between w-full lg:w-auto lg:justify-around gap-8;
 
     .social-networks {
         @apply flex items-center justify-around gap-8;
