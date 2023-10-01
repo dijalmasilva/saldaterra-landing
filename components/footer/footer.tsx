@@ -9,7 +9,7 @@ const Footer = () => {
         <footer>
             <div className="bg-primary w-full py-8 flex justify-center items-center">
                 <Container>
-                    <div className="flex gap-16">
+                    <div className="flex xl:gap-16 lg:gap-2">
                         <Image src="/images/logo.png" alt="logo" width={219} height={147} />
                         <div className="flex flex-col justify-evenly basis-4/12">
                             <div>

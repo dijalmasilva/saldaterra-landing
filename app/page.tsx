@@ -30,7 +30,7 @@ export default function Home() {
         <Section className="py-20">
             <div className="my-6">
                 <SectionTitle title="Saiba mais sobre os cultos" subtitle="Programe-se e esteja conosco!" />
-                <div className="flex gap-16 justify-center items-center mt-16">
+                <div className="flex flex-wrap gap-16 justify-center items-center mt-16">
                     <Card.Root>
                         <Card.Image image="/images/culto-1.jpg" />
                         <Card.Content className="text-center">
@@ -71,7 +71,7 @@ export default function Home() {
             </div>
             <div className="mt-24">
                 <SectionTitle title="Eventos e festividades" subtitle="Fique por dentro da nossa agenda!" />
-                <div className="flex gap-16 justify-center items-center mt-16">
+                <div className="flex flex-wrap gap-16 justify-center items-center mt-16">
                     <Card.Root>
                         <Card.Image image="/images/evento-1.jpg" />
                         <Card.Content className="text-center">
