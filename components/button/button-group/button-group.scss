@@ -1,5 +1,9 @@
 .button-group {
-  @apply flex justify-center items-center gap-[0.9px];
+  @apply flex justify-center items-center gap-[0.9px] w-full;
+
+  & > .button {
+    @apply flex-grow flex-shrink xs:flex-grow-0 xs:flex-shrink-0; // Isso permitirá que o botão cresça para preencher o espaço disponível
+  }
 
   // Estilos para o primeiro botão
   & > .button:first-child {

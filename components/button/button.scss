@@ -1,4 +1,4 @@
 .button {
-  @apply flex gap-2 px-6 py-2 text-white shadow hover:shadow-2xl rounded-2xl font-semibold;
+  @apply flex gap-2 px-6 py-2 text-white shadow hover:shadow-2xl rounded-2xl font-semibold items-center justify-center;
   transition-duration: 300ms;
 }

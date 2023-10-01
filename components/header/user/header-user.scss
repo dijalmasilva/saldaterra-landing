@@ -16,12 +16,16 @@
     @apply flex items-center justify-between w-full lg:w-auto lg:justify-around gap-8;
 
     .social-networks {
-        @apply flex items-center justify-around gap-8;
+        @apply hidden xs:flex items-center justify-around gap-8;
 
         img {
           @apply transform scale-100 hover:scale-125;
           transition-duration: 300ms;
         }
+    }
+
+    .login-register {
+      @apply w-full xs:w-auto;
     }
   }
 }

@@ -9,8 +9,8 @@ const Footer = () => {
         <footer>
             <div className="bg-primary w-full py-8 flex justify-center items-center">
                 <Container>
-                    <div className="flex gap-8 lg:gap-2 xl:gap-16">
-                        <Image src="/images/logo.png" alt="logo" width={219} height={147} />
+                    <div className="flex flex-wrap md:flex-nowrap gap-8 lg:gap-2 xl:gap-16">
+                        <Image className="hidden md:block" src="/images/logo.png" alt="logo" width={219} height={147} />
                         <div className="hidden lg:flex lg:flex-col justify-evenly lg:basis-4/12">
                             <div>
                                 <Typography className="!text-white !text-sm italic">
@@ -24,7 +24,7 @@ const Footer = () => {
                                 </Typography>
                             </div>
                         </div>
-                        <div className="flex gap-2 items-baseline">
+                        <div className="m-auto md:m-0 flex gap-2 items-baseline">
                             <Image src="/icons/pin-icon.svg" alt="pin-localizacao" width={14} height={16} />
                             <div className="flex flex-col justify-around h-full">
                                 <Typography className="!text-white !text-sm">
@@ -40,8 +40,8 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="flex flex-col justify-around">
-                            <div className="flex gap-4">
+                        <div className="m-auto md:m-0 gap-8 flex-col-reverse flex md:flex-col md:justify-around">
+                            <div className="m-auto md:m-0 flex gap-4">
                                 <Link href="#">
                                     <Image src="/icons/youtube-icon.svg" alt="youtube-icon" width={32} height={32} />
                                 </Link>
